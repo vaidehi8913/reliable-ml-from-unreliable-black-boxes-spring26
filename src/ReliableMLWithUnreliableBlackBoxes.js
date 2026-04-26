@@ -278,7 +278,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     <h1>Reliable Machine Learning with Unreliable Black Box Models</h1>
                     <h3>Spring 2026 course at Northwestern University</h3>
                     <h3>Meets: Tu/Thu 9:30-10:50am, Tech A110</h3>
-                    <h3>Instructors: <a href="https://users.cs.northwestern.edu/~aravindv/">Aravindan Vijayaraghavan</a> and <a href="https://vaidehi8913.github.io/">Vaidehi Srinivas</a></h3>
+                    <h3>Instructors: <a href="https://vaidehi8913.github.io/">Vaidehi Srinivas</a> and <a href="https://users.cs.northwestern.edu/~aravindv/">Aravindan Vijayaraghavan</a> </h3>
                 </div>
 
                 <div className="info-block">
