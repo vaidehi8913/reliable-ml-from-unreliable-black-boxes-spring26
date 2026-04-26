@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html, body, #root {
+  height: 100%;
+}
+
 body {
   /* font-family: ''Segoe UI', Tahoma, Geneva, Verdana, sans-serif';  */
   /* font-family: "Nunito Sans", sans-serif; */
@@ -26,7 +30,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100vh
+  min-height: 100vh
 }
 
 .inner-wrapper {
@@ -38,7 +42,7 @@ body {
   max-width: 1000px;
   padding: 20px;
   margin-top: 25px;
-  padding-bottom: 100px;
+  padding-bottom: 100px
 }
 
 .spacer {
@@ -66,14 +70,19 @@ body {
 }
 
 .info-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px
 }
 
-.info-block h3 {
-    margin-bottom: 5px
+.info-block h2 {
+    padding-bottom: 5px
+}
+
+.info-block h3, h4 {
+    padding-bottom: 5px;
+    padding-top: 10px
 }
 
 .info-block p {
@@ -86,7 +95,7 @@ table, th, td {
 }
 
 table p {
-  padding-bottom: 5px;
+  padding-bottom: 5px
 }
 
 td {
@@ -112,20 +121,36 @@ tr:nth-child(4n+2), tr:nth-child(4n+3) {
   background-color: #cee3f2;
 }
 
+tr:nth-child(4n), tr:nth-child(4n+1) {
+  background-color: #b9d9f0;
+}
+
 th, td {
   padding: 5px
 }
 
-ul {
-  padding-left: 20px
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  padding-top: 5px
 }
 
 .due {
-  color: darkred;
+  color: #c40000;
   font-weight: bold
 }
 
 .scribe {
   color: darkgreen;
   font-weight: bold
+}
+
+.paper-list p {
+  padding-top: 15px
+}
+
+.paper-list h4 {
+  padding-bottom: 0px;
 }
