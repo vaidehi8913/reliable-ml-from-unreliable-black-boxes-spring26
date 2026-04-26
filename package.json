@@ -2,7 +2,7 @@
   "name": "reliable-ml-from-unreliable-black-boxes-spring26",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vaidehi8913.github.io/reliable-ml-from-unreliable-black-boxes-spring26",
+  "homepage": "https://vaidehi8913.github.io/reliable-ml-with-unreliable-black-boxes-spring26",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
