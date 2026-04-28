@@ -223,7 +223,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                                 <li>Nathan Reimer on <a href="https://arxiv.org/abs/2201.04234">[GBLNS22]</a> Predicting 
                                 out-of-distribution performance</li>
                                 <li>Bob Guo on <a href="https://arxiv.org/abs/2103.03757">[MDMV22]</a> 
-                                <a href="https://arxiv.org/abs/2106.02968">[MFL23]</a> Mitigating distribution shoft via 
+                                <a href="https://arxiv.org/abs/2106.02968">[MFL23]</a> Mitigating distribution shift via 
                                 reweighting and discrepancy minimization</li>
                             </ul>
                         </td>
@@ -439,7 +439,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                         <li><a href="https://arxiv.org/abs/2010.11632">[BMS20]</a> Online primal-dual method</li>
                         <li><a href="https://arxiv.org/abs/2006.09123">[MV20]</a> Book chapter on algorithms with predictions (from Beyond the Worst 
                         Case Analysis of Algorithms)</li>
-                        <li><a href="https://algorithms-with-predictions.github.io/">This fantastic running bibliography</a> of papers in this area</li>
+                        <li><a href="https://algorithms-with-predictions.github.io/">This running bibliography</a> of papers in this area</li>
                     </ul>
 
                     <p><u>Causal Inference and Robustness</u></p>
