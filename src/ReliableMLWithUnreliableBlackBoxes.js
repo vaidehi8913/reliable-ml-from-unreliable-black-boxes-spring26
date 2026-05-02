@@ -22,7 +22,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                 </colgroup>
                 <tbody>
                     <tr key="1">
-                        <td>Thu, Apr 2</td>
+                        <td>(1) Thu, Apr 2</td>
                         <td>
                             (Lecture) <b>Course Introduction</b>
                             <ul>
@@ -41,7 +41,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="2">
-                        <td>Tue, Apr 7</td>
+                        <td>(2) Tue, Apr 7</td>
                         <td>
                             (Lecture) <b>Uncertainty Quantification Day 1</b>
                             <ul>
@@ -58,7 +58,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="3">
-                        <td>Thu, Apr 9</td>
+                        <td>(3) Thu, Apr 9</td>
                         <td>
                             (Lecture) <b>Uncertainty Quantification Day 2</b>
                             <ul>
@@ -74,7 +74,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="4">
-                        <td>Tue Apr 14</td>
+                        <td>(4) Tue Apr 14</td>
                         <td>
                             (Lecture) <b>Uncertainty Quantification Day 3</b>
                             <ul>
@@ -94,7 +94,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="5">
-                        <td>Thu, Apr 16</td>
+                        <td>(5) Thu, Apr 16</td>
                         <td>
                             (Lecture) <b>Uncertainty Quantification Day 4</b>
                             <ul>
@@ -113,7 +113,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="6">
-                        <td>Tue Apr 21</td>
+                        <td>(6) Tue Apr 21</td>
                         <td>
                             (Lecture) <b>Uncertainty Quantification Day 5</b>
                             <ul>
@@ -128,7 +128,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="7">
-                        <td>Thu, Apr 23</td>
+                        <td>(7) Thu, Apr 23</td>
                         <td>
                             (Student Presentation) <b>UQ Day 6</b>
                             <ul>
@@ -146,19 +146,33 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="8">
-                        <td>Tue Apr 28</td>
-                        <td>(Lecture) <b>Algorithms with Predictions Day 1</b></td>
+                        <td>(8) Tue Apr 28</td>
+                        <td>
+                            (Lecture) <b>Algorithms with Predictions Day 1</b>
+                            <ul>
+                                <li>Shifting focus: task-dependent strategies for mitigating unreliable predictions</li>
+                                <li>Motivating example: binary search with predictions</li>
+                                <li>The algorithms with predictions paradigm: robustness, consistency, and graceful degradation</li>
+                                <li>Caching with machine learned predictions (marking with predictions algorithm)</li>
+                            </ul>
+                        </td>
                         <td><span className="scribe">Scribe:</span> Bob Guo</td>
                     </tr>
 
                     <tr key="9">
-                        <td>Thu, Apr 30</td>
-                        <td>(Lecture) <b>Algorithms with Predictions Day 2</b></td>
+                        <td>(9) Thu, Apr 30</td>
+                        <td>
+                            (Lecture) <b>Algorithms with Predictions Day 2</b>
+                            <ul>
+                                <li>Example algorithmic templates for algorithms with predictions: switching, local search, biased randomness</li>
+                                <li>Optimistic online learning</li>
+                            </ul>
+                        </td>
                         <td><span className="scribe">Scribe:</span> Aryaman Chawla</td>
                     </tr>
 
                     <tr key="10">
-                        <td>Tue, May 5</td>
+                        <td>(10) Tue, May 5</td>
                         <td>
                             (Student Presentations) <b>Algorithms with Predictions and UQ Day 3</b>
                             <ul>
@@ -173,7 +187,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="11">
-                        <td>Thu, May 7</td>
+                        <td>(11) Thu, May 7</td>
                         <td>
                             (Student Presentations) <b>Algorithms with Predictions Day 4</b>
                             <ul>
@@ -189,7 +203,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="12">
-                        <td>Tue, May 12</td>
+                        <td>(12) Tue, May 12</td>
                         <td>(Lecture) <b>Reliability Under Distribution Shift</b></td>
                         <td>
                             <p><span className="due">Due:</span> project proposals</p>
@@ -198,13 +212,13 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="13">
-                        <td>Thu, May 14</td>
+                        <td>(13) Thu, May 14</td>
                         <td>(Lecture) <b>Causal Inference and Robustness</b></td>
                         <td><p><span className="scribe">Scribe:</span> Xingchen Sha</p></td>
                     </tr>
 
                     <tr key="14">
-                        <td>Tue, May 19</td>
+                        <td>(14) Tue, May 19</td>
                         <td>
                             (Student Presentations) <b>Distribution Shift and Robustness Day 3</b>
                             <ul>
@@ -217,7 +231,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="15">
-                        <td>Thu, May 21</td>
+                        <td>(15) Thu, May 21</td>
                         <td>
                             (Student presentations) <b>Distribution Shift and Robustness Day 4</b>
                             <ul>
@@ -232,19 +246,19 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="16">
-                        <td>Tue, May 26</td>
+                        <td>(16) Tue, May 26</td>
                         <td>(Lecture) <b>Calibration</b></td>
                         <td><p><span className="scribe">Scribe:</span> Mateusz Gabrys</p></td>
                     </tr>
 
                     <tr key="17">
-                        <td>Thu, May 28</td>
+                        <td>(17) Thu, May 28</td>
                         <td>(Lecture) <b>Other Topics</b></td>
                         <td><p><span className="scribe">Scribe:</span> Nathan Reimer</p></td>
                     </tr>
 
                     <tr key="18">
-                        <td>Tue, Jun 2</td>
+                        <td>(18) Tue, Jun 2</td>
                         <td>
                             (Student Presentations) <b>Other Topics</b>
                             <ul>
@@ -256,7 +270,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     </tr>
 
                     <tr key="19">
-                        <td>Thu, Jun 4</td>
+                        <td>(19) Thu, Jun 4</td>
                         <td>(Student Presentations) <b>Projects</b></td>
                         <td><p><span className="scribe">Scribe:</span> Xinye Yang (first n/2 presentations), Ruitao Zhou (second n/2 presentations)</p></td>
                     </tr>
