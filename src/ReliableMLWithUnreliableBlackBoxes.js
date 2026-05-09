@@ -6,7 +6,9 @@ import scribe1 from "./files/lecture1-scribe.pdf";
 import scribe2 from "./files/lecture2-scribe.pdf";
 import scribe4 from "./files/lecture4-scribe.pdf";
 import scribe5 from "./files/lecture5-scribe.pdf";
+import scribe6 from "./files/lecture6-scribe.pdf";
 import scribe7 from "./files/lecture7-scribe.pdf";
+import scribe8 from "./files/lecture8-scribe.pdf";
 import scribe9 from "./files/lecture9-scribe.pdf";
 
 class ReliableMLWithUnreliableBlackBoxes extends Component {
@@ -124,7 +126,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                             </ul>
                         </td>
                         <td>
-                            <p><span className="scribe">Scribe:</span> Hongyu Chen</p>
+                            <p><a href={scribe6}>[Scribe notes, thanks Hongyu Chen!]</a></p>
                         </td>
                     </tr>
 
@@ -157,7 +159,7 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                                 <li>Caching with machine learned predictions (marking with predictions algorithm)</li>
                             </ul>
                         </td>
-                        <td><span className="scribe">Scribe:</span> Bob Guo</td>
+                        <td><a href={scribe8}>[Scribe notes, thanks Bob Guo!]</a></td>
                     </tr>
 
                     <tr key="9">
