@@ -10,6 +10,7 @@ import scribe6 from "./files/lecture6-scribe.pdf";
 import scribe7 from "./files/lecture7-scribe.pdf";
 import scribe8 from "./files/lecture8-scribe.pdf";
 import scribe9 from "./files/lecture9-scribe.pdf";
+import scribe11 from "./files/lecture11-scribe.pdf";
 
 class ReliableMLWithUnreliableBlackBoxes extends Component {
 
@@ -201,10 +202,10 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                             </ul>
                         </td>
                         <td>
+                            <p><a href={scribe11}>[Scribe notes for both parts of lecture, thanks Andre Shportko!]</a></p>
                             <p><span className="due">Due:</span> read <a href="https://arxiv.org/abs/2402.18263">[COGLP24]</a> in 
                             prep for discussion (see also <a href="https://arxiv.org/abs/2403.02212">[GMM24]</a> if 
                             you are interested, but we don't expect you to read both)</p>
-                            <p><span className="scribe">Scribe:</span> Andre Shportko</p>
                         </td>
                     </tr>
 
