@@ -227,14 +227,19 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
                     <tr key="14">
                         <td>(14) Tue, May 19</td>
                         <td>
-                            (Student Presentations) <b>Distribution Shift and Robustness Day 3</b>
-                            <ul>
+                            <p><span className="due">(Schedule change)</span></p>
+                            (Lecture) <b>Distribution Shift and Robustness Day 3</b>
+                            {/* <ul>
                                 <li>Monish Vijayakumar on <a href="https://arxiv.org/abs/1810.08750">[DN20]</a> Distributionally 
                                 robust optimization</li>
                                 <li>Huaman Sun on <a href="https://arxiv.org/abs/2007.05145">[GKKM20]</a> Prediction with abstentions</li>
-                            </ul>
+                            </ul> */}
+
                         </td>
-                        <td><p><span className="scribe">Scribe:</span> April Shi (presentation 1), Yu He (presentation 2)</p></td>
+                        <td>
+                            <p><span className="due">(Scribe change)</span></p>
+                            <p><span className="scribe">Scribe:</span> April Shi</p>
+                        </td>
                     </tr>
 
                     <tr key="15">
@@ -260,8 +265,17 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
 
                     <tr key="17">
                         <td>(17) Thu, May 28</td>
-                        <td>(Lecture) <b>Other Topics</b></td>
-                        <td><p><span className="scribe">Scribe:</span> Nathan Reimer</p></td>
+                        <td>
+                            <p><span className="due">(Schedule change)</span></p>
+                            (Student Presentations + Lecture) <b>Other Topics</b>
+                            <ul>
+                                <li>Huaman Sun on <a href="https://arxiv.org/abs/2007.05145">[GKKM20]</a> Prediction with abstentions</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <p><span className="due">(Scribe change)</span></p>
+                            <p><span className="scribe">Scribe:</span> Nathan Reimer (presentation), Yu He (lecture)</p>
+                        </td>
                     </tr>
 
                     <tr key="18">
