@@ -11,6 +11,7 @@ import scribe7 from "./files/lecture7-scribe.pdf";
 import scribe8 from "./files/lecture8-scribe.pdf";
 import scribe9 from "./files/lecture9-scribe.pdf";
 import scribe11 from "./files/lecture11-scribe.pdf";
+import scribe13 from "./files/lecture13-scribe.pdf";
 
 class ReliableMLWithUnreliableBlackBoxes extends Component {
 
@@ -211,7 +212,17 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
 
                     <tr key="12">
                         <td>(12) Tue, May 12</td>
-                        <td>(Lecture) <b>Reliability Under Distribution Shift</b></td>
+                        <td>
+                            (Lecture) <b>Reliability Under Distribution Shift</b>
+                            <ul>
+                                <li>The ML pipeline</li>
+                                <li>Distribution shift: definitions</li>
+                                <li>Black boxes</li>
+                                <li>Domain adaptation</li>
+                                <li>Importance sampling</li>
+                                <li>Issues with importance sampling</li>
+                            </ul>
+                        </td>
                         <td>
                             <p><span className="due">Due:</span> project proposals</p>
                             <p><span className="scribe">Scribe:</span> Yunai Li</p>
@@ -220,8 +231,17 @@ class ReliableMLWithUnreliableBlackBoxes extends Component {
 
                     <tr key="13">
                         <td>(13) Thu, May 14</td>
-                        <td>(Lecture) <b>Causal Inference and Robustness</b></td>
-                        <td><p><span className="scribe">Scribe:</span> Xingchen Sha</p></td>
+                        <td>
+                            (Lecture) <b>Distribution Shift, Continued</b>
+                            <ul>
+                                <li>Issues with importance sampling, continued</li>
+                                <li>Contingency Tables</li>
+                                <li>Raking/calibration of survey weights</li>
+                                <li>Matrix scaling</li>
+                                <li>Optimal transport</li>
+                            </ul>
+                        </td>
+                        <td><a href={scribe13}>[Scribe notes, thanks Xingchen Sha!]</a></td>
                     </tr>
 
                     <tr key="14">
